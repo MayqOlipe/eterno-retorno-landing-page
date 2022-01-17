@@ -12,7 +12,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/Css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Oswald:wght@300&display=swap" rel="stylesheet">
     <style>
+      #osvalwd{
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+      }
       html{
         scroll-behavior: smooth;
       }
@@ -21,6 +29,7 @@
   <body>
 
     <!-- ? Começo da Navbar -->
+    <div class="container-fluid p-0 m-0">
     <nav class="navbar navbar-expand-lg navbar-light bg3 sticky-top">
       <img class="logo" src="./assets/Media/IMG_1621340401943__1_-removebg-preview.png" alt="" />
       <a class="navbar-brand" href="index.html">Eterno Retorno</a>
@@ -59,9 +68,9 @@
     </nav>
 
   <!-- ? Fim da navbar -->
-
+ 
   <div class="bg1" id="Home" >
-<div>
+
 <div class="row bg1 p-0 m-0 d-flex align-content-center pb-5 p-5">
 <div class="col-md6 d-flex justify-content-center align-items-center">
 <img src="/assets/Media/IMG_1621340401943__1_-removebg-preview.png" height="150px" alt="logo">
@@ -125,7 +134,7 @@
     <div class="card bg4 col-md-3" style="width: 18rem;">
       <img src="./assets/Media/Mayq.png" class="card-img-top" alt="mayq">
       <div class="card-body bg4">
-        <p class="card-text text-light">Baixista da Banda, morador de São Caetano, referecias musicais: Counterparts, Tesseract e Being as an ocean</p>
+        <p id="osvalwd" class="card-text text-light">Baixista da Banda, morador de São Caetano, referecias musicais: Counterparts, Tesseract e Being as an ocean</p>
       </div>
     </div>
 
@@ -154,7 +163,7 @@
 
 <!-- ? Inicio do carrossel -->
 
-<div id="Galeria" class="bg1">
+<div id="Galeria" class="bg1 container">
   <div class="row mt-5">
 
     <div class="container-fluid d-flex justify-content-center bg2 text-light pt-5 pb-5">
@@ -192,11 +201,11 @@
     </div>
     </div>
     </div>
-</div>
+
 <!-- ? Fim do carrosel -->
 
 <!-- ! Inicio do form -->
-
+<div class="container">
 <div id="Contato" class="row d-flex justify-content-center align-content-center bg2 mt-5 mb-5">
 
   <div class="col-md6 d-flex justify-content-center align-items-center">
@@ -219,7 +228,7 @@
 </form>
 </div>
 </div>
-
+</div>
 <!-- ! Fim do form  -->
 
 <!-- ? rodapé -->
@@ -243,6 +252,7 @@
             <p id="righteous" class="text-center">Todos os direitos reservados &copy eternoretornohc</p>
             </div>
         </footer>
+      </div>
 <!-- ? /rodapé -->
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
