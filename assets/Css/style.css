@@ -22,3 +22,6 @@ object-fit: cover;
     background: #282828;
 }
 
+html, body{
+    overflow-x: hidden;
+}
