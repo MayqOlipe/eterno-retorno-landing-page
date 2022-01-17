@@ -60,8 +60,8 @@
 
   <!-- ? Fim da navbar -->
 
-  <div id="Home" >
-<div class="bg1">
+  <div class="bg1" id="Home" >
+<div>
 <div class="row bg1 p-0 m-0 d-flex align-content-center pb-5 p-5">
 <div class="col-md6 d-flex justify-content-center align-items-center">
 <img src="/assets/Media/IMG_1621340401943__1_-removebg-preview.png" height="150px" alt="logo">
@@ -197,14 +197,16 @@
 
 <!-- ! Inicio do form -->
 
-<div id="Contato" class="row d-flex justify-content-center align-content-center bg2">
-  <div class="row d-flex justify-content-center align-content-center bg2 text-light ">
-    <h1 class="">Entre em contato conosco</h1>
-  </div>
+<div id="Contato" class="row d-flex justify-content-center align-content-center bg2 mt-5 mb-5">
 
-<div class=" bg2 text-light d-flex justify-content-center align-content-center ml-5 mt-3">
+  <div class="col-md6 d-flex justify-content-center align-items-center">
+    <img src="/assets/Media/IMG_1621340401943__1_-removebg-preview.png" alt="logo">
+    </div>
+
+<div class="bg2 text-light ml-5 mt-5">
+  <h1 class="">Entre em contato conosco:</h1>
   <form>
-  <div class="form-group">
+  <div class="form-group mt-4">
     <label for="exampleFormControlInput1">E-mail</label>
     <input type="email" class="form-control" id="exampleFormControlInput1" onkeyup="validaEmail()" placeholder="email@email.com">
     <div class="txtEmail"></div>
@@ -219,15 +221,29 @@
 </div>
 
 <!-- ! Fim do form  -->
-<footer>
 
-  <div class="bg1 d-flex justify-content-center align-content-center">
-  <p class='nomargem little'>Todos os direitos reservados &copy; Eterno Retorno</p>
-  <p class='nomargem little'>2022</p>
-  </div>
-
-</footer>
-
+<!-- ? rodapé -->
+    
+        <hr color="black">
+        <footer class="container">
+            <div class="row mb-3"> 
+            <div class="col-md-12 d-flex justify-content-center">
+                <a href="https://web.facebook.com/eternoretornohc" target="_blank" class="p-2">
+                    <img src="https://img.icons8.com/ios/50/000000/facebook--v1.png" alt="Logo do Facebook" height="40px">
+                </a>
+    
+                <a href="https://www.instagram.com/eternoretornohc/" target="_blank" class="p-2">
+                    <img src="https://img.icons8.com/ios/50/000000/instagram-new--v3.png" alt="Logo do Instagram" height="40px">
+                </a>
+                
+            </div>
+            </div>
+            
+            <div class="col-md-12">
+            <p id="righteous" class="text-center">Todos os direitos reservados &copy eternoretornohc</p>
+            </div>
+        </footer>
+<!-- ? /rodapé -->
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
